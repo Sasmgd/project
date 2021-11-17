@@ -1,0 +1,218 @@
+
+@media only screen and (min-width: 320px) and (max-width: 960px){   
+    header{
+        display: grid;
+	    grid-template-columns: 0% 100% 0%;
+    }
+    .topmain .topmain_left span{
+        font-size: 53px !important;
+        text-align: center;
+    }
+    .topmain_left {
+        margin-left: 15%;
+    }
+    .topmain .imgtopmain{
+        justify-content: center;         
+        width: 320px;
+        height: 398px;
+        margin-left: 0px;
+    }
+    .midtopmain{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: stretch;
+    }
+    .midtopmain .midtopmain_right img{
+        width: 233px;
+        height: 291px;
+    }
+    main .middle h3{
+        font-size: 45px;
+    }
+    .border_h3{
+       
+        margin-top: 10%;
+    }
+    .middle .video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .middle .video iframe{
+        margin-left: 3%;
+        height: 315px;
+        width: 300px;
+    }
+    .middle_bootom{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+    }
+    .bootom h3{
+        margin-left: 0px;
+        font-size: 50px;
+    }
+    .h1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .h2{
+        display: flex;
+        justify-content: center;
+    }
+    .bootom .border_h3{
+        margin-left: 0px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        margin-left: 12px;
+    
+    } 
+    .form form textarea{
+        width: 280px;
+        margin-left: 0px;
+    } 
+    .form form input{
+        width: 280px;
+        height: 40px;
+    }
+    .form form button{
+        float: none;
+        height: 40px;
+        width: 280px;
+    }
+    .bootom .icon {
+        margin-top: 20%;
+    }
+    footer{
+        display: grid;
+	    grid-template-columns: 0% 100% 0%;
+    }
+    .about .h1{
+        display: flex;
+        justify-content: center;
+    }
+    .about h2{
+        font-size: 50px;
+
+        margin-top: 10%;
+    }
+    .about .h2{
+        display: flex;
+        justify-content: center;
+    }
+    .about .border_h3{
+        margin-top: 10%;
+        margin-left: 0px;
+    }
+    .about .top{
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+    .about .top .topright{
+        margin-left: 0px;
+    }
+    .about .top .topleft{
+        margin-left: 0px;
+    }
+    .about .bottom{
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;  
+    }
+    .about .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about  button{
+        
+        margin-left: 5%;
+        height: 48px;
+        width: 280px;
+    }
+    
+    .shop h2{
+        font-size: 50px;
+        margin-left: 0px;
+    }
+    .shop .h1{
+        display: flex;
+        justify-content: center;
+    }
+    .shop .h2{
+        display: flex;
+        justify-content: center;
+    }
+    .border_h3{margin-left: 0px;}
+    .shop .shop_bottom{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content:center;
+        align-items: center;
+        align-content: stretch;  
+    }
+    .buy{ 
+       
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+    }
+    .buy .bottom{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+    }
+    .buy .bottom img{
+        height: 240px;
+        width: 240px;
+
+    }
+    .buy .bottom .litle img{
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+    }
+    
+    .buy .bottom .right button{
+        width: 200px !important;
+        height: 44px;
+    }
+    .right h6{
+        font-weight: bold;
+    }
+    main .fixed-bottom {
+        
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    main .fixed-bottom i{
+        margin-left: 25%;
+        margin-top: 20%;
+    }
+}
